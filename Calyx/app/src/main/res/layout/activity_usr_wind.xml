@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    android:id="@+id/rel_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <ListView
+        android:id="@+id/fileList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="80dp"
+        android:paddingHorizontal="15dp"
+        android:dividerHeight="10dp"
+        android:divider="@null"
+        android:layout_marginTop="10dp">
+    </ListView>
+
+
+    <Button
+        android:id="@+id/files_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Выбрать файл"
+        android:paddingLeft="100dp"
+        android:paddingRight="100dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/oval"
+        android:onClick="on_Click_files">
+    </Button>
+
+</RelativeLayout>

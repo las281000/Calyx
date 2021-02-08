@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Calyx</string>
+    <string name="exit">Выход</string>
+    <string name="update">Обновить</string>
+</resources>

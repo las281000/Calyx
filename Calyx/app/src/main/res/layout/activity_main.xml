@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/background"
+    android:shrinkColumns="*"
+    android:stretchColumns="wrap_content">
+
+    <TableRow android:id="@+id/row_0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <EditText android:id="@+id/login_Edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:maxLength="32"
+            android:hint="Логин"
+            android:textColor="#00004d">
+        </EditText>
+
+    </TableRow>
+
+    <TableRow android:id="@+id/row_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <EditText android:id="@+id/password_Edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="Пароль"
+            android:maxLength="32"
+            android:textColor="#00004d">
+        </EditText>
+
+    </TableRow>
+    <TableRow android:id="@+id/row_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <Button android:id="@+id/sign_in_Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Войти"
+            android:textColor="#00004d"
+            android:background="@drawable/oval"
+            android:onClick="on_Click_sighIn">
+        </Button>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/row_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/reg_Button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="60dp"
+            android:text="Зарегистрироваться"
+            android:textColor="#00004d"
+            android:background="@drawable/oval"
+            android:onClick="on_Click_reg"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp">
+
+        </Button>
+    </TableRow>
+</TableLayout>
