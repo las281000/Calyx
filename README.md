@@ -8,3 +8,4 @@ additional functionality was developed that allows you to manage your files.
 The project was developed with Java and Graddle Build Tool.
 
 You can see more information in Calyx.pdf
+All project files are in Calyx/app/src/main/
