@@ -1,6 +1,6 @@
 # Calyx
  
-Calyx is the app for uploading files to remote server, developed for OS Android.
+Calyx is the app for uploading files to remote server, developed for the Android OS.
 
 The app can be used to upload files to a remote server and download files to a device from that server, and
 additional functionality was developed that allows you to manage your files.
